@@ -14,6 +14,10 @@
 		5C3FF01D1BF91C7300E11CE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3FF01B1BF91C7300E11CE3 /* LaunchScreen.storyboard */; };
 		5C3FF0281BF91C7300E11CE3 /* PizzaApp_Semana2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FF0271BF91C7300E11CE3 /* PizzaApp_Semana2Tests.swift */; };
 		5C3FF0331BF91C7300E11CE3 /* PizzaApp_Semana2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FF0321BF91C7300E11CE3 /* PizzaApp_Semana2UITests.swift */; };
+		5C3FF0411BF9325800E11CE3 /* TipoMasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FF0401BF9325800E11CE3 /* TipoMasaViewController.swift */; };
+		5C3FF0431BF9329100E11CE3 /* TipoQuesoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FF0421BF9329100E11CE3 /* TipoQuesoViewController.swift */; };
+		5C3FF0451BF9331200E11CE3 /* IngredienteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FF0441BF9331200E11CE3 /* IngredienteTableViewController.swift */; };
+		5C3FF0471BF9334600E11CE3 /* ResumenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FF0461BF9334600E11CE3 /* ResumenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		5C3FF02E1BF91C7300E11CE3 /* PizzaApp_Semana2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaApp_Semana2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3FF0321BF91C7300E11CE3 /* PizzaApp_Semana2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaApp_Semana2UITests.swift; sourceTree = "<group>"; };
 		5C3FF0341BF91C7300E11CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C3FF0401BF9325800E11CE3 /* TipoMasaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasaViewController.swift; sourceTree = "<group>"; };
+		5C3FF0421BF9329100E11CE3 /* TipoQuesoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoQuesoViewController.swift; sourceTree = "<group>"; };
+		5C3FF0441BF9331200E11CE3 /* IngredienteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredienteTableViewController.swift; sourceTree = "<group>"; };
+		5C3FF0461BF9334600E11CE3 /* ResumenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				5C3FF0191BF91C7300E11CE3 /* Assets.xcassets */,
 				5C3FF01B1BF91C7300E11CE3 /* LaunchScreen.storyboard */,
 				5C3FF01E1BF91C7300E11CE3 /* Info.plist */,
+				5C3FF0401BF9325800E11CE3 /* TipoMasaViewController.swift */,
+				5C3FF0421BF9329100E11CE3 /* TipoQuesoViewController.swift */,
+				5C3FF0441BF9331200E11CE3 /* IngredienteTableViewController.swift */,
+				5C3FF0461BF9334600E11CE3 /* ResumenViewController.swift */,
 			);
 			path = PizzaApp_Semana2;
 			sourceTree = "<group>";
@@ -256,7 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3FF0431BF9329100E11CE3 /* TipoQuesoViewController.swift in Sources */,
+				5C3FF0411BF9325800E11CE3 /* TipoMasaViewController.swift in Sources */,
+				5C3FF0451BF9331200E11CE3 /* IngredienteTableViewController.swift in Sources */,
 				5C3FF0151BF91C7300E11CE3 /* ViewController.swift in Sources */,
+				5C3FF0471BF9334600E11CE3 /* ResumenViewController.swift in Sources */,
 				5C3FF0131BF91C7300E11CE3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +498,7 @@
 				5C3FF0391BF91C7300E11CE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C3FF03A1BF91C7300E11CE3 /* Build configuration list for PBXNativeTarget "PizzaApp_Semana2Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				5C3FF03C1BF91C7300E11CE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C3FF03D1BF91C7300E11CE3 /* Build configuration list for PBXNativeTarget "PizzaApp_Semana2UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +516,7 @@
 				5C3FF03F1BF91C7300E11CE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
